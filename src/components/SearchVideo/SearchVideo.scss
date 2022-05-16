@@ -1,0 +1,20 @@
+.Searchvideo{
+    form{
+        display: flex;
+
+        input{
+            width: 300px;
+            padding: 4px;
+            outline: none;
+        }
+        button{
+            padding: 5px;
+            background-color: #333;
+            color: #fff;
+            Search{
+                font-weight: 800;
+                font-size: 20px;
+            }
+        }
+    }
+}

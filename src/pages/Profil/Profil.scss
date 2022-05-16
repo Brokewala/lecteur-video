@@ -1,0 +1,44 @@
+.Profil{
+   background-color: #fff;
+   color: #333;
+   border-radius: 5px;
+   padding: 15px;
+   margin: 50px;
+   button{
+       border: none;
+       background: #333;
+       color: #fff;
+       font-weight: 600;
+       font-size: 16px;
+       padding: 10px;
+       border-radius: 5px;
+       cursor: pointer;
+       &:hover{
+        background: #f2f2f2;
+        color: #333;
+       }
+   }
+
+   .logoProfil{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       object-fit: cover;
+   }
+
+   .image_content{
+       text-align: center;
+   }
+  
+   .propos_content{
+      
+       div{
+           padding: 10px;
+           background-color: #f2f2f2;
+           border-radius: 5px;
+           margin: 10px;
+           font-weight: 700;
+           font-size: 18px;
+       }
+   }
+}

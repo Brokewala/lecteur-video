@@ -1,0 +1,12 @@
+.Home{
+    margin: 12px;
+    
+    .Home_content{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 86vh;
+    }
+    .Home_content::-webkit-scrollbar{
+        width: 5px;
+    }
+}

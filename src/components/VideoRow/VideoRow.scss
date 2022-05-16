@@ -1,0 +1,43 @@
+.Videorow{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+
+    .Videorow_Row{
+        padding: 18px;
+        background: #fff;
+        border-radius: 5px;
+        color: #333;
+        margin: 10px;
+
+        .Videorow_title{
+            display: flex;
+            align-items: center;
+            img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+    
+            }
+            p{
+                font-weight: 800;
+                font-size: 18px;
+                margin-left: 10px;
+                cursor: pointer;
+            }
+        }
+        .Videorow_Body{
+            video{
+                cursor: pointer;
+                margin-top: 2px;
+                width: 300px;
+                border-radius: 4px;
+            } 
+        }
+    }
+
+}
+
+
+// <video autoPlay  loop controls muted   src={item.video}></video>

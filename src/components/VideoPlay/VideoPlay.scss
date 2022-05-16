@@ -1,0 +1,18 @@
+.Videoplay{
+    .Videoplay_Right{
+        border: 1px silod red;
+        background: #fff;
+        color: #333;
+        border-radius: 5px;
+        video{
+            width: 100%;
+
+        }
+    }
+    .HomeVideo_content{
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        // flex-wrap: wrap;
+    }
+}

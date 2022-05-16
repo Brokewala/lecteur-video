@@ -1,0 +1,17 @@
+.App{
+
+    .App_content{
+        display: flex;
+        .App_Nav{
+            background-color: #fff;
+            color: #333;
+
+        }
+        .App_Route{
+            width: 100%;
+            background: #f2f2f2;
+            color:black;
+            
+        }
+    }
+}

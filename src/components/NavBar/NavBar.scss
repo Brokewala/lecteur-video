@@ -1,0 +1,36 @@
+.NavBarContent{
+    height: 100vh;
+
+    .NavBar_logo{
+        text-align: center;
+        padding: 5px;
+        .menu{
+            font-size: 30px;
+            cursor: pointer;
+
+        }
+    }
+    .Home-body{
+        ul{
+            li{
+                cursor: pointer;
+                padding: 7px;
+                text-align: center;
+                &:hover{
+                    background: #d1cece;
+                    color:black;
+                }
+                .homeLogo{
+                    font-size: 30px;
+                }
+                .Link{
+                    text-align: center;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
